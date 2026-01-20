@@ -48,5 +48,33 @@
         <img class="hamburger" src="assets/hamburger-menu.png" alt="" />
       </div>
     </nav>
-    
+    <!-- banner section -->
+    <section
+      class="banner bg-[url(assets/hero-bg.png)] bg-no-repeat bg-center bg-cover mx-auto min-h-screen flex flex-col items-center py-30">
+      <div id="images" class="relative w-[334px] h-[334px] flex items-center justify-center">
+        <img id="circle" class="absolute w-full h-full inset-0" src="assets/hero-circle.png" alt="circle" />
+
+        <img id="microphone" class="relative z-10 w-1/2 h-auto" src="assets/microphone.png" alt="microphone" />
+        <!-- adding animation -->
+        <span id="badge"
+          class="absolute animate-pulse z-10 transform top-8 right-2 inline-flex items-center rounded-4xl text-green-50 px-2 py-1 text-base font-medium bg-green-700 inset-ring inset-ring-green-600/20">New</span>
+      </div>
+      <div class="text-center">
+        <h1 class="text-6xl font-bold mt-10">TechWave</h1>
+        <p class="opacity-[0.8] text-base mt-2 mb-8">
+          Your daily dose of tech insights, productivity hacks, and personal
+          growth
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-4 justify-center w-full">
+        <button
+          class="flex px-5 py-3 text-white font-semibold rounded-4xl items-center bg-linear-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition">
+          <img class="mr-2 w-5 h-5" src="assets/spotify.png" alt="spotify" />Listen
+          on Spotify
+        </button>
+        <button class="border border-solid border-[#00FF88] text-[#00FF88] px-3 py-3 rounded-4xl flex items-center">
+          <img class="mr-2 w-5 h-5" src="assets/message.png" alt="message" />Subscribe
+        </button>
+      </div>
+    </section>
   </header>
